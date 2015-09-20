@@ -11,3 +11,59 @@ to be committed as a logical unit. It is valuable because it gives the
 flexibility to only commit specific files as opposed to all the files in a
 repository.
 
+3. How can you use the staging area to make sure you have one commit per logical
+change?
+
+The staging area is like a holding bay for changed files to be committed.
+Therefore, a git user has total control over which file(s) representing a
+logical change to put in the staging area to be committed.
+
+4. What are some situations when branches would be helpful in keeping your
+history organized? How would branches help?
+
+Creating branches would be helpful for instance if I wanted to experiment with a\new feature or make a fundamental change to the whole project, such as creating an easy
+or hard mode for a game. By using branches, I can have more fine-tuned control over
+the project’s development in regards to having access to file changes made within
+the different branches of the project.
+
+5. How do the diagrams help you visualize the branch structure?
+
+The diagrams help you see which commits are reachable by a particular branch.
+
+6. What is the result of merging two branches together? Why do we represent it in
+the diagram the way we do?
+
+Merging two branches together combines the commits added to both branches into a
+single branch. It is represented in the diagram in a way that visualises the last
+commit that is common to the branches being merged as well as the most recent
+commit that will not be the tip of the branch in the newly merged single branch.
+
+7. What are the pros and cons of Git’s automatic merging vs. always doing merges
+manually?
+
+Pros:
+-Automatic merging updates branches that may be missing official core changes
+faster than manually merging commits from one branch into another.
+
+Cons:
+- Automatic merges are not always possible, particularly in the case where a
+conflicting change exists in a file common to the branches being merge.
+- Manual merges are time-consuming as you would also have to check each commit to
+make sure that no conflicts or error exist.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
