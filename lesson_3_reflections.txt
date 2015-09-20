@@ -4,3 +4,9 @@ local?
 I would want to use a remote repository when I am collaborating on a project with
 multiple contributors, each of which producing code from their personal devices.
 
+2. Why might you want to always pull changes manually rather than having Git
+automatically stay up-to-date with your remote repository?
+
+So that a local change that has not yet been committed and pushed to the remote
+repository does not get lost or overwritten.
+
