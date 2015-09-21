@@ -40,6 +40,21 @@ is sensible to allow the computer (Git) to automate the processes that can be
 automated and leave the more nuanced tasks that can be addressed by human input much
 faster to the team.
 
+6. When would you want to make changes in a separate branch rather than directly in
+master? What benefits does each approach have?
+
+It’s good practice to make changes in a separate branch when that change needs
+verifying by someone else or when you don’t want the master to be updated to
+include the change. Making a change in a separate branch has the benefit of
+preserving a standard state in the master while using the new branch to test new
+changes that build upon the master state. These additional changes can then be added
+to the master if or when suitable. Making a change in the master has the benefit of
+instantly updating the main branch without the need for verification or manually
+merging branches.
+
+
+
+
 
 
 
